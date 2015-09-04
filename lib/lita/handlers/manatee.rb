@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class Manatee < Handler
-      route /manatee(?:\s+me)?/, :manatee, command: true, help: { "lita manatee" => "Returns a random calming manatee" }
+      route /^manatee(?:\s+me)?$/, :manatee, command: true, help: { "lita manatee" => "Returns a random calming manatee" }
 
       def manatee(response)
         endpoint = "http://calmingmanatee.com/"
