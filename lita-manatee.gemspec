@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-manatee"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["John O'Brien"]
   spec.email         = ["strayjohno@gmail.com"]
   spec.description   = "Fetch a random calming manatee from calmingmanatee.com"
